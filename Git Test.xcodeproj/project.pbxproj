@@ -14,6 +14,7 @@
 		5B8878C41A9923BD00C76036 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8878C31A9923BD00C76036 /* Images.xcassets */; };
 		5B8878C71A9923BD00C76036 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8878C51A9923BD00C76036 /* LaunchScreen.xib */; };
 		5B8878D31A9923BE00C76036 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8878D21A9923BE00C76036 /* Git_TestTests.m */; };
+		5B8878DE1A992A6900C76036 /* MAGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8878DD1A992A6900C76036 /* MAGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5B8878CC1A9923BE00C76036 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8878D11A9923BE00C76036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B8878D21A9923BE00C76036 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5B8878DC1A992A6900C76036 /* MAGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGTest.h; sourceTree = "<group>"; };
+		5B8878DD1A992A6900C76036 /* MAGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		5B8878AA1A9923BD00C76036 = {
 			isa = PBXGroup;
 			children = (
+				5B8878DC1A992A6900C76036 /* MAGTest.h */,
+				5B8878DD1A992A6900C76036 /* MAGTest.m */,
 				5B8878B51A9923BD00C76036 /* Git Test */,
 				5B8878CF1A9923BE00C76036 /* Git TestTests */,
 				5B8878B41A9923BD00C76036 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B8878BF1A9923BD00C76036 /* ViewController.m in Sources */,
+				5B8878DE1A992A6900C76036 /* MAGTest.m in Sources */,
 				5B8878BC1A9923BD00C76036 /* AppDelegate.m in Sources */,
 				5B8878B91A9923BD00C76036 /* main.m in Sources */,
 			);
